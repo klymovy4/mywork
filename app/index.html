@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <meta charset="utf-8">
+   <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <link href="fotorama.css" rel="stylesheet">
+  <script src="fotorama.js"></script>
+  <link href="dist/hamburgers.css" rel="stylesheet">
+  <link rel="stylesheet" href="libs/OwlCarousel/dist/assets/owl.carousel.min.css">
+  <!-- <link rel="stylesheet" href="libs/OwlCarousel/dist/assets/owl.theme.default.min.css"> -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+	<meta name="description" content="">
+  <link rel="stylesheet" href="C:\folder\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+	<title>Real Project</title>
+</head>
+
+<body>
+  <div id='leftNavBar' class="leftNavBar">
+    <a href="#main-header" title='home page' >;)</a>
+  </div>
+  <div class="navbar">
+    <ul id="navbar" class='navba clearfix'>
+      <li><a href="#portfolio">PORTFOLIO</a></li>
+      <li><a href="#informatione">INFORMATIONE</a></li>
+      <li><a class="logIn" href="#">LOGIN</a></li>
+      <li><a href="#fotoSet">PHOTO SET</a></li>
+      <li><a href="#footer">ABOUT ME</a></li>
+    </ul>
+  </div>
+  
+	<div id='main-header' class="main-header" style="background-image: url(img/bg.jpg);">
+    <div class="header-content">
+      <h1>Hello Friends!</h1>
+      <button class="hamburger hamburger--elastic is-active" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <ul class="header-buttons clearfix">
+        <li><a  class="header-buttons-li" href="#portfolio">PORTFOLIO</a></li>
+        <li><a class="header-buttons-li" href="#informatione">INFORMATIONE</a></li>
+        <li><a id='logIn' class="header-buttons-li logIn" href="#">LOGIN</a></li>
+        <li><a class="header-buttons-li" href="#fotoSet">PHOTO SET</a></li>
+        <li><a class="header-buttons-li" href="#footer">ABOUT ME</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id='fotoSet' class="mainFotorama">
+    <h1>Photo Set</h1>
+      <div class="forFotorama">
+        <div class="fotorama"  data-loop="true" data-stopautoplayontouch="false" data-arrows="false"  data-width="100%" data-fit="cover" data-height="550px" data-ratio="700/467" data-max-width="100%" data-autoplay="true"  >
+          <img class='myImg' src="img/1a.jpg">
+          <img src="img/1a.jpg">
+          <img src="img/2a.jpg">
+          <img src="img/3a.jpg">
+          <img src="img/5a.jpg">
+          <img src="img/6a.jpg">
+        </div>
+      </div>
+  </div>
+
+  <section id='informatione' class="landing-section" >
+    <div class="container">
+    <div class="z-index">
+      <h2>Разработчики этого сайта</h2>
+      <div class="toggles">
+        <button id="showAll">Show All</button>
+        <button id="webdev">WebDevelopment</button>
+        <button id="webdesign">Web Design</button>
+        <button id="graphd">Graf Design</button>
+      </div>
+
+      <div class="blog-home grid">
+          <a href="#" class='blog-item grid webdesign'>
+            <span class="blog-item-img" style="background-image: url(img/1a.jpg);"></span>
+            <span class="blog-item-content grid">
+              <h4>1Roman Klymovych</h4>
+                <p>Front-end 
+                    developer of high level. Programming language javascript.</p>
+            </span>
+            <div class="content-card">
+              <p>1кГц. Благодаря более 
+                          мощному, чем в предыдущих
+                            моделях 32-х битному микропроцессору
+                          , обеспечивается высокая скорость работы
+                        дискриминатора и прибора в целом и минимизируется
+                      время отклика аудио сигнала до вывода визуальной
+                    информации на дисплей.
+              </p>                  
+            </div> 
+          </a>
+          <a href="#" class='blog-item grid webdesign'>
+            <span class="blog-item-img" style="background-image: url(img/3a.jpg);"></span>
+            <span class="blog-item-content grid">
+              <h4>3МЕТАЛЛОИСКАТЕЛЬ MINELAB E-TRAC</h4>
+                <p>3Explorer E-Trac MINELAB  </p> </span>
+                  <div class="content-card">
+                    <p>работает Благодаря более 
+                      мощному,Lorem ipsum dolor sit amet. Lorem  Lorem ipsum dolor sit amet.ipsum dolor sit amet  sfsfsds sfdf sfdgv xfdfggconsectetur adipisicing elit. Eius, reiciendis! 3кГц.  чем в предыдущих
+                                 моделях 32-х битному микропроцессору
+                                 , обеспечивается высокая скорость работы
+                                  дискриминатора и прибора в целом и минимизируется
+                                    время отклика аудио сигнала до вывода визуальной
+                                     информации на дисплей.</p>                  
+                  </div>
+                         
+          </a>
+          <a href="#" class='blog-item grid graphd'>
+            <span class="blog-item-img" style="background-image: url(img/7a.jpg);"></span>
+            <span class="blog-item-content grid">
+              <h4>2Климович Роман Игоревич</h4>
+                <p>2Explorer E-Trac MINELAB работает на 28 частотах в </p> </span>
+                  <div class="content-card">
+                    <p>диапазоне  от 1,5 до 100 2кГц. Благодаря более 
+                          мощному, чем в предыдущих
+                           моделях 32-х битному микропроцессору
+                           , обеспечивается высокая скорость работы
+                            дискриминатора и прибора в целом и минимизируется
+                              время отклика аудио сигнала до вывода визуальной
+                               информации на дисплей.</p>                  
+                  </div>
+          </a>
+          <a href="#" class='blog-item grid graphd'>
+            <span class="blog-item-img" style="background-image: url(img/4a.jpg);"></span>
+            <span class="blog-item-content grid">
+              <h4>4МЕТАЛЛОИСКАТЕЛЬ MINELAB E-TRAC</h4>
+                <p>Explorer E-Trac MINELAB
+                   работает </p>
+            </span>
+            <div class="content-card">
+                <p> на 28 частотах 
+                  в диапазоне  от 1,5 до 100. 3кГц. Благодаря более 
+                  мощному, чем в предыдущих
+                    моделях 32-х битному микропроцессору
+                    , обеспечивается высокая скорость работы
+                    дискриминатора и прибора в целом и минимизируется
+                   время отклика аудио сигнала до вывода визуальной
+                   информации на дисплей.</p>                  
+            </div>
+          </a>
+          <a href="#" class='blog-item grid webdesign'>
+            <span class="blog-item-img" style="background-image: url(img/5a.jpg);"></span>
+            <span class="blog-item-content grid">
+              <h4>5МЕТАЛЛОИСКАТЕЛЬ MINELAB E-TRAC</h4>
+                <p>Explorer E-Trac MINELAB работает</p>
+            </span>
+            <div class="content-card">
+              <p> на 28 частотах в диапазоне  от 1,5 до 100  кГц. Благодаря более мощному, чем в предыдущих  моделях 32-х битному микропроцессору обеспечивается высокая скорость работы дискриминатора и прибора в целом и минимизируется время отклика аудио сигнала до вывода визуальной информации на дисплей.</p>                  
+            </div>
+          </a>
+          <a href="#" class='blog-item grid graphd'>
+            <span class="blog-item-img" style="background-image: url(img/6a.jpg);"></span>
+            <span class="blog-item-content grid">
+              <h4>7МЕТАЛЛОИСКАТЕЛЬ MINELAB E-TRAC</h4>
+                <p>Explorer E-Trac MINELAB работает </p>
+            </span>
+              <div class="content-card">
+                <p>на 28 частотах в диапазоне  от  3кГц. Благодаря более мощному, чем в предыдущих  моделях 32-х битному микропроцессору обеспечивается высокая скорость работы дискриминатора и прибора в целом и минимизируется время отклика аудио сигнала до вывода визуальной информации на дисплей.</p>                  
+              </div>
+          </a>
+          <a href="#" class='blog-item grid webdev'>
+            <span class="blog-item-img" style="background-image: url(img/5a.jpg);"></span>
+            <span class="blog-item-content grid">
+              <h4>6МЕТАЛЛОИСКАТЕЛЬ MINELAB E-TRAC</h4>
+                <p>Explorer E-Trac MINELAB работает </p>
+            </span>
+              <div class="content-card">
+                <p>на 28 частотах в диапазоне  от  3кГц. Благодаря более мощному, чем в предыдущих  моделях 32-х битному микропроцессору обеспечивается высокая скорость работы дискриминатора и прибора в целом и минимизируется время отклика аудио сигнала до вывода визуальной информации на дисплей.</p>                  
+              </div>
+          </a>
+          <a href="#" class='blog-item grid webdev'>
+            <span class="blog-item-img" style="background-image: url(img/6a.jpg);"></span>
+            <span class="blog-item-content grid">
+              <h4>8МЕТАЛЛОИСКАТЕЛЬ MINELAB E-TRAC</h4>
+                <p>Explorer E-Trac MINELAB работает </p>
+            </span>
+              <div class="content-card">
+                <p>на 28 частотах в диапазоне  от  3кГц. Благодаря более мощному, чем в предыдущих  моделях 32-х битному микропроцессору обеспечивается высокая скорость работы дискриминатора и прибора в целом и минимизируется время отклика аудио сигнала до вывода визуальной информации на дисплей.</p>                  
+              </div>
+          </a>
+        </div>
+    </div> 
+    </div> 
+  </section>
+  <div class="forCarousel">
+    <div class="owl-carousel owl-theme">
+      <a href="#" class='blog-item grid webdesign'>
+        <span class="blog-item-img" style="background-image: url(img/1a.jpg);"></span>
+        <span class="blog-item-content grid">
+          <h4>1Roman Klymovych</h4>
+            <p>Front-end developer of high level. Programming language javascript.</p> </span>
+              <div class="content-card">
+                    <p>1кГц. Благодаря более 
+                      мощному, чем в предыдущих
+                        моделях 32-х битному микропроцессору
+                      , обеспечивается высокая скорость работы
+                    дискриминатора и прибора в целом и минимизируется
+                  время отклика аудио сигнала до вывода визуальной
+                информации на дисплей.</p>                  
+              </div> 
+      </a>
+      <a href="#" class='blog-item grid webdesign'>
+        <span class="blog-item-img" style="background-image: url(img/3a.jpg);"></span>
+        <span class="blog-item-content grid">
+          <h4>3МЕТАЛЛОИСКАТЕЛЬ MINELAB E-TRAC</h4>
+            <p>3Explorer E-Trac MINELAB  </p> </span>
+              <div class="content-card">
+                <p>работает Благодаря более 
+                  мощному,Lorem ipsum dolor sit amet. Lorem  Lorem ipsum dolor sit amet.ipsum dolor sit amet  sfsfsds sfdf sfdgv xfdfggconsectetur adipisicing elit. Eius, reiciendis! 3кГц.  чем в предыдущих
+                             моделях 32-х битному микропроцессору
+                             , обеспечивается высокая скорость работы
+                              дискриминатора и прибора в целом и минимизируется
+                                время отклика аудио сигнала до вывода визуальной
+                                 информации на дисплей.</p>                  
+              </div>
+                     
+      </a>
+      <a href="#" class='blog-item grid graphd'>
+        <span class="blog-item-img" style="background-image: url(img/7a.jpg);"></span>
+        <span class="blog-item-content grid">
+          <h4>2Климович Роман Игоревич</h4>
+            <p>2Explorer E-Trac MINELAB работает на 28 частотах в </p> </span>
+              <div class="content-card">
+                <p>диапазоне  от 1,5 до 100 2кГц. Благодаря более 
+                      мощному, чем в предыдущих
+                       моделях 32-х битному микропроцессору
+                       , обеспечивается высокая скорость работы
+                        дискриминатора и прибора в целом и минимизируется
+                          время отклика аудио сигнала до вывода визуальной
+                           информации на дисплей.</p>                  
+              </div>
+      </a>
+      <a href="#" class='blog-item grid graphd'>
+        <span class="blog-item-img" style="background-image: url(img/4a.jpg);"></span>
+        <span class="blog-item-content grid">
+          <h4>4МЕТАЛЛОИСКАТЕЛЬ MINELAB E-TRAC</h4>
+            <p>Explorer E-Trac MINELAB
+               работает </p>
+        </span>
+        <div class="content-card">
+            <p> на 28 частотах 
+              в диапазоне  от 1,5 до 100. 3кГц. Благодаря более 
+              мощному, чем в предыдущих
+                моделях 32-х битному микропроцессору
+                , обеспечивается высокая скорость работы
+                дискриминатора и прибора в целом и минимизируется
+               время отклика аудио сигнала до вывода визуальной
+               информации на дисплей.</p>                  
+        </div>
+      </a>
+      <a href="#" class='blog-item grid webdesign'>
+        <span class="blog-item-img" style="background-image: url(img/5a.jpg);"></span>
+        <span class="blog-item-content grid">
+          <h4>5МЕТАЛЛОИСКАТЕЛЬ MINELAB E-TRAC</h4>
+            <p>Explorer E-Trac MINELAB работает</p>
+        </span>
+        <div class="content-card">
+          <p> на 28 частотах в диапазоне  от 1,5 до 100  кГц. Благодаря более мощному, чем в предыдущих  моделях 32-х битному микропроцессору обеспечивается высокая скорость работы дискриминатора и прибора в целом и минимизируется время отклика аудио сигнала до вывода визуальной информации на дисплей.</p>                  
+        </div>
+      </a>
+      <a href="#" class='blog-item grid graphd'>
+        <span class="blog-item-img" style="background-image: url(img/6a.jpg);"></span>
+        <span class="blog-item-content grid">
+          <h4>7МЕТАЛЛОИСКАТЕЛЬ MINELAB E-TRAC</h4>
+            <p>Explorer E-Trac MINELAB работает </p>
+        </span>
+          <div class="content-card">
+            <p>на 28 частотах в диапазоне  от  3кГц. Благодаря более мощному, чем в предыдущих  моделях 32-х битному микропроцессору обеспечивается высокая скорость работы дискриминатора и прибора в целом и минимизируется время отклика аудио сигнала до вывода визуальной информации на дисплей.</p>                  
+          </div>
+      </a>
+      <a href="#" class='blog-item grid webdev'>
+        <span class="blog-item-img" style="background-image: url(img/5a.jpg);"></span>
+        <span class="blog-item-content grid">
+          <h4>6МЕТАЛЛОИСКАТЕЛЬ MINELAB E-TRAC</h4>
+            <p>Explorer E-Trac MINELAB работает </p>
+        </span>
+          <div class="content-card">
+            <p>на 28 частотах в диапазоне  от  3кГц. Благодаря более мощному, чем в предыдущих  моделях 32-х битному микропроцессору обеспечивается высокая скорость работы дискриминатора и прибора в целом и минимизируется время отклика аудио сигнала до вывода визуальной информации на дисплей.</p>                  
+          </div>
+      </a>
+      <a href="#" class='blog-item grid webdev'>
+        <span class="blog-item-img" style="background-image: url(img/6a.jpg);"></span>
+        <span class="blog-item-content grid">
+          <h4>8МЕТАЛЛОИСКАТЕЛЬ MINELAB E-TRAC</h4>
+            <p>Explorer E-Trac MINELAB работает </p>
+        </span>
+          <div class="content-card">
+            <p>на 28 частотах в диапазоне  от  3кГц. Благодаря более мощному, чем в предыдущих  моделях 32-х битному микропроцессору обеспечивается высокая скорость работы дискриминатора и прибора в целом и минимизируется время отклика аудио сигнала до вывода визуальной информации на дисплей.</p>                  
+          </div>
+      </a>
+    </div>
+   </div>
+  <section id="portfolio" class="portfolio">
+
+    <div class="container">
+      <h1>Our Blog</h1>
+      <div id='portfolio-section' class="portfolio-section grid">
+        <div class="portfolio-item  webdesign" style="background-image: url(img/11a.jpg)">1</div>
+        <div class="portfolio-item  webdesign" style="background-image: url(img/12a.jpg)">2</div>
+        <div class="portfolio-item  graphd" style="background-image: url(img/13a.jpg)">3</div>
+        <div class="portfolio-item  webdesign" style="background-image: url(img/14a.jpg)">4</div>
+        <div class="portfolio-item  webdev" style="background-image: url(img/15a.jpg)">5</div>
+        <div class="portfolio-item rid webdev" style="background-image: url(img/16a.jpg)">6</div>
+        <div class="portfolio-item grid webdesign" style="background-image: url(img/17a.jpg)">7</div>
+        <div class="portfolio-item grid webdev" style="background-image: url(img/18a.jpg)">8</div>
+        <div class="portfolio-item grid webdesign" style="background-image: url(img/19a.jpg)">9</div>
+      <!--  <div class="portfolio-item grid webdesign" style="background-image: url(img/bg3.jpg)">10</div>
+        <div class="portfolio-item grid webdesign" style="background-image: url(img/bg5.jpg)">11</div>
+        <div class="portfolio-item grid webdesign" style="background-image: url(img/bg6.jpg)">12</div>
+        <div class="portfolio-item grid webdev" style="background-image: url(img/bg1.jpg)">13</div>
+        <div class="portfolio-item grid webdev" style="background-image: url(img/bg4.jpg)">14</div> -->
+      </div>
+    </div>
+  <!-- <div id='footer1'></div> -->
+  </section>
+
+  
+
+  <!-- <section class='img'>
+    <img class='myImg' src="img/bg1.jpg" alt="wew">
+  </section> -->
+ 
+ 
+
+<!-- K4FYC-FB8RV-RHHMY-YX479-2QK2B
+P27M6-794B9-942HR-KHYP8-R2XRY -->
+<div id='footer' class='footer'>
+  
+  <div class="footer-container grid">
+    <div class="about-us">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quaerat laudantium maxime quos quam minus nostrum id fuga voluptatem dignissimos. If you want to add a comment, <a id='addComent' href='#'>click here!</a></p>
+      <!-- <a id='addComent' href="#">Add Comment</a> -->
+      <div class="comentContent">
+        <!-- <div class="addComent"> -->
+          <!-- <h2 style="margin:5px">My To Do List</h2> -->
+          <textarea id="myInput" placeholder="to add a comment..." name="" id="" cols="" rows=""></textarea>
+          <!-- <input type="textarea" id="myInput" placeholder="Title..."> -->
+          <div onclick="newElement()" class="buttonForm">Add Comment</div>
+        <!-- </div> -->
+      </div>
+      <h4>Photo Streem</h4>
+      <div class="images grid">
+        <img class='myImg footer-item' src="img/imgfooter/1.jpg" alt="gallarate museum">
+        <img class='myImg footer-item' src="img/imgfooter/2.jpg" alt="Italy Milan">
+        <img class='myImg footer-item' src="img/imgfooter/3.jpg" alt="Italy Milan">
+        <img class='myImg footer-item' src="img/imgfooter/4.jpg" alt="Italy Milan">
+        <img class='myImg footer-item' src="img/imgfooter/5.jpg" alt="Austria">
+        <img class='myImg footer-item' src="img/imgfooter/7.jpg" alt="gallarate museum">
+      </div>
+    </div>
+      <div class="tweets">
+        <div class="heart"></div>
+        <h4>Latest Tweets</h4>
+        <ul id="myUL" class='myUL'>
+          <li>Hit the gym</li>
+          <li class="checked">Pay bills</li>
+          <li class="checked">Meet George</li>
+          <li>Buy eggs</li>
+          <li>Read a book</li>
+          <li>Organize office</li>
+        </ul>
+          <p><i class="fa fa-twitter"></i>Далеко-далеко за словесными горами в стране гласных и согласных живут.</p>
+          <p><i class="fa fa-twitter"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, officia?</p>
+          <p><i class="fa fa-twitter"></i>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Приставка подзаголовок своих правилами пояс предупреждал, продолжил единственное строчка повстречался подпоясал. Языкового назад дороге знаках он раз коварный они моей.</p>
+          <p><i class="fa fa-twitter"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <p><i class="fa fa-twitter"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <p><i class="fa fa-twitter"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          
+      </div>
+      <div class="contacts">
+        <h4>Social Conecting</h4>          
+     <div class="contacts-a grid">
+      <a href='https://www.facebook.com/klymovych'><i class="fa fa-facebook"></i></a>
+      <a href='https://www.instagram.com/roma_klymovych/'><i class="fa fa-instagram"></i></a>
+      <a href='https://vk.com/kipishdeath'><i class="fa fa-vk"></i></a>
+      <a href='#'><i class="fa fa-google"></i></a>
+      <a href='#'><i class="fa fa-twitter"></i></a>
+      <a href='https://www.linkedin.com/in/roman-klymovych-691a10167/'><i class="fa fa-linkedin"></i></a>
+      <a href='https://www.youtube.com/channel/UC8pFKVdvafNa85gxEeKjGgw?view_as=subscriber'><i class="fa fa-youtube"></i></a>
+     </div>
+      </div>
+  </div>
+  <div class="deep-footer">
+    <h4>All rights reserved 2018 ©</h4>
+  </div>
+</div>
+
+<div class="modal-log">
+  <span class="close">&times;</span>
+  <div class="modal-content-log">
+      <!-- <div class="imgcontainer"><img src="img/1.jpg" alt=""></div> -->
+    <form action = "/action_page.php">
+      <img src="img/logo/1.jpg" alt="">
+      <div>
+        <label><b>Username</b></label><br>
+        <input id='name' type='text' placeholder="Enter User Name" 
+        name='uname' required><br>
+        <label><b>Password</b></label><br>
+        <input id='password' type='password' placeholder="Enter Password" 
+        name='uname' required><br>
+        <button id ='log' type='submit'>Login</button><br>
+        <label><input type='checkbox'checked='checked'>Remember me</label>
+      </div>
+      <div class="container-log">
+        <button type='button' class='cancelbtn'>Cancel</button>
+        <span class='psw'>Forgot <a href='#'>password?</a></span>
+      </div>
+    </form>
+  </div>
+</div>
+
+ <!--the modal  -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" src="">
+  <div id="caption"></div>
+</div>
+
+<!--logIn----------------------------------------------------------------->
+<div class="dws-wrapper">
+  <input type='checkbox' name='toggle' id='dws-form' class='toggleForm'>
+<div class="dws-container">
+  <label for='dws-form' class='toggleForm'><i class="fa fa-facebook"></i>ogIn</label>
+  <form class="formbox" style="background-image: url(img/18a.jpg)">
+      <div class="inputbox" >
+              <label class="labeltext"><strong>Name:</strong></label>
+              <input type="text" class="userinput" required>
+      </div>
+      <div class="inputbox">
+              <label class="labeltext"><strong>E-mail:</strong></label>
+              <input type="text" class="userinput" required>
+      </div>
+      <div class="inputbox">
+              <label class="labeltext"><strong>Phone</strong></label>
+              <input type="phone" class="userinput" required pattern="\d+">
+      </div>
+      <!-- <div class="inputbox">
+              <label class="labeltext">Сообщение</label>
+              <textarea class='userInput' required></textarea>
+      </div> -->
+      <div class="inputbox">
+              <input type="checkbox" required>
+              <label class='personalDoc'><strong>Я согласен на все что</strong> <a href='#'><strong>можно и нельзя</strong></a></label>
+              
+      </div>
+      <input type='submit' value='Confirm' class='buttonForm'>
+  </form>
+</div>
+</div>
+
+</div>
+
+<div class="flip-container grid container">
+  <div id='flip-1' class="flip-box">
+    <div class="flip-box-inner portfolio-item ">
+      <div class="flip-box-front" style = 'background-image: url(img/19a.jpg)'>
+        <h2>Lorem, ipsum dolor.</h2>
+      </div>
+      <div class="flip-box-back">
+        <h2>Lorem.</h2>
+      </div>
+    </div>
+  </div>
+  <div id='flip-2' class="flip-box">
+    <div class="flip-box-inner portfolio-item" >
+      <div class="flip-box-front" style = 'background-image: url(img/16a.jpg)' >
+        <h2>22Lorem,.</h2>
+      </div>
+      <div class="flip-box-back">
+        <h2>Lorem.</h2>
+      </div>
+    </div>
+  </div>
+  <div id='flip-3' class="flip-box">
+    <div class="flip-box-inner portfolio-item">
+      <div class="flip-box-front" style = 'background-image: url(img/18a.jpg)'>
+        <h2>Lorem, ipsum dolor.</h2>
+      </div>
+      <div class="flip-box-back">
+        <h2>Lorem.</h2>
+      </div>
+    </div>
+  </div>
+  <div id='flip-4' class="flip-box">
+      <div class="flip-box-inner portfolio-item" >
+      <div class="flip-box-front" style = 'background-image: url(img/14a.jpg)'>
+        <h2>Lorem, ipsum dolor.</h2>
+      </div>
+      <div class="flip-box-back">
+        <h2>Lorem.</h2>
+      </div>
+    </div>
+  </div>
+  <div id='flip-5' class="flip-box ">
+    
+        <div class="flip-box-inner portfolio-item">
+      <div class="flip-box-front" style = 'background-image: url(img/13a.jpg)'>
+        <h2>Lorem, ipsum dolor.</h2>
+      </div>
+      <div class="flip-box-back" style = 'background-image: url(img/11a.jpg)'>
+        <h2>Lorem.</h2>
+    </div>
+  </div>
+  </div>
+  <div id='flip-6' class="flip-box">
+    <div class="flip-box-inner portfolio-item">
+      <div class="flip-box-front" style = 'background-image: url(img/12a.jpg)'>
+        <h2>Lorem,6 ip.</h2>
+      </div>
+      <div class="flip-box-back" style = 'background-image: url(img/5.jpg)'>
+        <h2>Lorem.</h2>
+      </div>
+    </div>
+  </div>
+  <div id='flip-7' class="flip-box">
+    <div  class="flip-box-inner portfolio-item ">
+      <div class="flip-box-front flip-box-front-7" style = 'background-image: url(img/11a.jpg)'>
+        <h2>Lorem, ipsum dolor.</h2>
+      </div>
+      <div class="flip-box-back flip-box-back-7 " style = 'background-image: url(img/7.jpg)'>
+        <h2>Lorem.</h2>
+      </div>
+    </div>
+  </div>
+  <div id='flip-8' class="flip-box">
+      <div  class="flip-box-inner portfolio-item ">
+        <div class="flip-box-front flip-box-front-8" style = 'background-image: url(img/7.jpg)'>
+          <h2>Museum Svarovsky.</h2>
+        </div>
+        <div class="flip-box-back flip-box-back-8" style = 'background-image: url(img/6.jpg)'>
+          <h2>Svarovsky</h2>
+          <p>This isplace one of wonderfull in the world. Swarovski Kristallwelten (Кристальные миры Swarovski) были открыты в 1995 году в честь 100-летнего юбилея компании Swarovski. Этот неповторимый мир фантазии был создан мультимедийным художником Андре Хеллером.  С момента открытия и по сей день более двенадцати миллионов человек посетило эту излюбленную достопримечательность Тироля и насладилось Моментами удивления. </p>
+        </div>
+      </div>
+    </div>
+    <div id='flip-9' class="flip-box">
+        <div  class="flip-box-inner portfolio-item ">
+          <div class="flip-box-front flip-box-front-9" style = 'background-image: url(img/bg1.jpg)'>
+            <h2>Lorem, ipsum dolor.</h2>
+          </div>
+          <div class="flip-box-back flip-box-back-9">
+            <h2>Lorem.</h2>
+          </div>
+        </div>
+      </div>
+</div>
+
+<script>
+
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 170 || document.documentElement.scrollTop > 170) {
+        document.getElementById("navbar").style.top = "0";
+        document.getElementById("leftNavBar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-50px";
+        document.getElementById("leftNavBar").style.top = "-140px";
+    }
+}
+
+
+</script>
+<script>
+
+//   var col = document.getElementsByClassName('blog-item-content');
+//   var i;
+
+// for( i=0; i < col.length; i++){
+//   col[i].addEventListener('click', function(){
+//     this.classList.toggle('active');
+//     var content = document.getElementsByClassName('content-card');
+//     if(content.style.display === 'block'){
+//       content.style.display = 'none';
+//       } else {
+//         content.style.display = 'block';
+      
+//     }
+//   });
+// }
+</script>
+<script>
+    // Look for .hamburger
+    var hamburger = document.querySelector(".hamburger");
+    // On click
+    hamburger.addEventListener("click", function() {
+      // Toggle class "is-active"
+      hamburger.classList.toggle("is-active");
+      // Do something else, like open/close menu
+    });
+  </script>
+  <script>
+    // Create a "close" button and append it to each list item
+    // var myNodelist = document.getElementsByTagName("LI");
+    // var i;
+    // for (i = 0; i < myNodelist.length; i++) {
+    //   var span = document.createElement("SPAN");
+    //   var txt = document.createTextNode("\u00D7");
+    //   span.className = "close";
+    //   span.appendChild(txt);
+    //   myNodelist[i].appendChild(span);
+    // }
+    
+    // Click on a close button to hide the current list item
+    var close = document.getElementsByClassName("close");
+    var i;
+    for (i = 0; i < close.length; i++) {
+      close[i].onclick = function() {
+        var div = this.parentElement;
+        div.style.display = "none";
+      }
+    }
+    
+    // Add a "checked" symbol when clicking on a list item
+    var list = document.querySelector('ul');
+    list.addEventListener('click', function(ev) {
+      if (ev.target.tagName === 'LI') {
+        ev.target.classList.toggle('checked');
+      }
+    }, false);
+    
+    // Create a new list item when clicking on the "Add" button
+    function newElement() {
+      var li = document.createElement("li");
+      var inputValue = document.getElementById("myInput").value;
+      var t = document.createTextNode(inputValue);
+      li.appendChild(t);
+      if (inputValue === '') {
+        alert("You must write something!");
+      } else {
+        document.getElementById("myUL").appendChild(li);
+      }
+      document.getElementById("myInput").value = "";
+    
+      // var span = document.createElement("SPAN");
+      // var txt = document.createTextNode("\u00D7");
+      // span.className = "close";
+      // span.appendChild(txt);
+      // li.appendChild(span);
+    
+      // for (i = 0; i < close.length; i++) {
+      //   close[i].onclick = function() {
+      //     var div = this.parentElement;
+      //     div.style.display = "none";
+      //   }
+      // }
+    }
+
+
+    
+  </script>
+
+
+	<link rel="stylesheet" href="css/main.min.css">
+  <script src="js/scripts.min.js"></script>
+
+</body>
+</html>
