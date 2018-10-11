@@ -81,7 +81,7 @@
     top: 0
     left: 0
     background-color: black
-    opacity: .3
+    opacity: .5
   
 .mainMenu
   display: none
@@ -634,7 +634,9 @@ input
 
 .buttonForm
   position: relative
-  z-index: 20
+  float: right
+  text-align: center
+  z-index: 5
   cursor: pointer
   color: white
   padding: 8px
@@ -661,16 +663,10 @@ input
 
 .comentContent
   position: relative
-  .buttonForm
-    z-index: 5
-  
   // top: 100%
   display: none
   textarea
-    width: 100%
-  .buttonForm
-    float: right
-    text-align: center
+    width: 100%    
   &:after
     content: ''
     display: table
