@@ -287,7 +287,7 @@
   grid-template-columns: repeat(3, 1fr)
   grid-gap: 4px
   &:hover
-    color: rgb(90, 75, 110)
+    // color: rgb(90, 75, 110)
   img
     width: 100%
     cursor: pointer
@@ -316,14 +316,19 @@
 
 .contacts    
   i
+    position: relative
     font-size: 25px
-    padding: 0 10px
+    // padding: 0 10px
     transition: .3s
+    outline: 1px solid white
     &:hover
       font-size: 30px
+      padding-right: 6px
+      padding-bottom: 0
       // box-shadow: 2px 2px 2px 2px white
   &-a
     grid-template-columns: repeat( 7, 1fr)
+    // position: absolute
     a
       &:nth-child(1):hover i
         color: #576b95
@@ -337,8 +342,10 @@
       &:nth-child(6):hover i
         color: #0073b1
       &:nth-child(7):hover i
+        transition: .3s
         background: linear-gradient(to bottom right, black, red)
         color: white
+        
 
 
 
@@ -356,17 +363,19 @@
     cursor: pointer
 
 .footer-item
-  &:hover
-    color: rgb(90, 75, 110)
+  position: relative
   &::after
-    content: ''
+    content: ' '
     position: absolute
     bottom: 0
     right: 0
     top: 0
     left: 0
     background-color: black
-    opacity: .5
+    opacity: .7
+  // &:hover
+    // color: rgb(90, 75, 110)
+  
 
 .deep-footer
   padding: 10px
@@ -692,6 +701,26 @@ input
     content: ''
     display: table
     clear: both
+
+.test
+  // position: relative
+  outline: 1px solid orange
+  // margin: 10px
+  img
+    margin: 10px
+    position: relative
+    width: 350px
+    top: 50px
+    left: 400px
+    &::after
+      content: '123'
+      position: absolute
+      top: 0
+      right: 0
+      left: 0
+      bottom: 0
+      background-color: black
+      opacity: .7
 
   
 
