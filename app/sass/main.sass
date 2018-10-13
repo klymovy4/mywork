@@ -319,8 +319,29 @@
     font-size: 25px
     padding: 0 10px
     transition: .3s
+    &:hover
+      font-size: 30px
+      // box-shadow: 2px 2px 2px 2px white
   &-a
     grid-template-columns: repeat( 7, 1fr)
+    a
+      &:nth-child(1):hover i
+        color: #576b95
+        // font-size: 26px
+      &:nth-child(4):hover i
+        color: rgb(220, 78, 64)
+      &:nth-child(3):hover i
+        color: #597da3
+      &:nth-child(5):hover i
+        color: rgb(72, 172, 216)
+      &:nth-child(6):hover i
+        color: #0073b1
+      &:nth-child(7):hover i
+        background: linear-gradient(to bottom right, black, red)
+        color: white
+
+
+
 
 .fa
   // display: inline-block
