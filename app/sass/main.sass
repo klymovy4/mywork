@@ -314,21 +314,18 @@
     
       
 
-.contacts    
+.contacts
   i
-    position: relative
     font-size: 25px
-    // padding: 0 10px
+    padding: 10px
     transition: .3s
-    outline: 1px solid white
+    // outline: 1px solid white
     &:hover
       font-size: 30px
       padding-right: 6px
       padding-bottom: 0
-      // box-shadow: 2px 2px 2px 2px white
   &-a
     grid-template-columns: repeat( 7, 1fr)
-    // position: absolute
     a
       &:nth-child(1):hover i
         color: #576b95
@@ -345,6 +342,8 @@
         transition: .3s
         background: linear-gradient(to bottom right, black, red)
         color: white
+        padding: 10px
+        // outline: 1px solid white
         
 
 
@@ -650,7 +649,7 @@
 
 input
   font-size: 17px
-  color: white
+  color: black
   z-index: 44
 
 .personalDoc
@@ -701,27 +700,6 @@ input
     content: ''
     display: table
     clear: both
-
-.test
-  // position: relative
-  outline: 1px solid orange
-  // margin: 10px
-  img
-    margin: 10px
-    position: relative
-    width: 350px
-    top: 50px
-    left: 400px
-    &::after
-      content: '123'
-      position: absolute
-      top: 0
-      right: 0
-      left: 0
-      bottom: 0
-      background-color: black
-      opacity: .7
-
   
 
 
