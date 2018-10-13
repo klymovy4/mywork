@@ -684,6 +684,31 @@ input
     display: table
     clear: both
 
+.test
+  width: 500px
+  height: 300px
+  position: relative
+  color: white
+  // z-index: 59
+  img
+    width: 500px
+    height: 300px
+    
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    right: 0
+    left: 0
+    bottom: 0
+    background-color: black
+    opacity: .7
+  &:hover
+    cursor: pointer
+    &::before
+      opacity: 0
+      transition: opacity .5s ease
+
   
 
 
