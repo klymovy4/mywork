@@ -567,13 +567,15 @@
   right: 0
   width: 350px
   overflow: hidden
-  transform: translateY(356px)
+  transform: translateY(465px)
   transition: .5s
   &:hover
-    transform: translateY(343px)
+    transform: translateY(458px)
+  .buttonForm
+
 
 .toggleForm:checked ~ .dws-container
-  transform: translateY(10px)
+  transform: translateY(0)
 
 .toggleForm[type='checkbox']
   display: none
@@ -664,7 +666,7 @@ input
 
 .buttonForm
   position: relative
-  float: right
+  // float: right
   text-align: center
   z-index: 5
   cursor: pointer
@@ -696,11 +698,14 @@ input
   // top: 100%
   display: none
   textarea
-    width: 100%    
+    width: 100%
+    color: black
   &:after
     content: ''
     display: table
     clear: both
+  .buttonForm
+    float: right
 
 // .flip-box-back
 //   position: relative
