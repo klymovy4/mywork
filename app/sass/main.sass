@@ -4,7 +4,7 @@
 @import "vars"
 @import "humburgers"
 @import "flip"
-@import "hart"
+@import "owlCarousel"
 
 
 // Пользовательские стили
@@ -185,7 +185,8 @@
   height: 400px
   // outline: 1px solid black
   display: none
-  padding: 2px
+  // padding: 2px
+  // padding-top: 10px
 
 .modal, .modal-log
   display: none
@@ -566,13 +567,15 @@
   right: 0
   width: 350px
   overflow: hidden
-  transform: translateY(356px)
+  transform: translateY(465px)
   transition: .5s
   &:hover
-    transform: translateY(343px)
+    transform: translateY(458px)
+  .buttonForm
+
 
 .toggleForm:checked ~ .dws-container
-  transform: translateY(10px)
+  transform: translateY(0)
 
 .toggleForm[type='checkbox']
   display: none
@@ -581,10 +584,10 @@
   position: relative
   padding: 30px
   border: 4px solid white
-  background-image: url(img/18a.jpg)
-  background-size: cover
-  background-position: center
-  // background: lightblue
+  // background-image: url(img/18a.jpg)
+  // background-size: cover
+  // background-position: center
+  // background-color: lightblue
   &:after
     content: ''
     position: absolute
@@ -594,6 +597,8 @@
     left: 0
     background-color: black
     opacity: .1
+
+   
     
   
 
@@ -604,6 +609,7 @@
   background: black
   display: block
   color: white
+  text-align: center
   margin: 0 0 0 226px
   font-size: 17px
   padding: 6px 6px
@@ -663,7 +669,7 @@ input
 
 .buttonForm
   position: relative
-  float: right
+  // float: right
   text-align: center
   z-index: 5
   cursor: pointer
@@ -695,11 +701,13 @@ input
   // top: 100%
   display: none
   textarea
-    width: 100%    
-  &:after
+    width: 100%
+    color: black
+  // &:after
     content: ''
     display: table
     clear: both
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -729,6 +737,24 @@ input
       transition: opacity .5s ease
 
 >>>>>>> 4902dd6096cfdada4c43e67ae469877cd008c55e
+=======
+  .buttonForm
+    float: right
+
+// .flip-box-back
+//   position: relative
+//   &::after
+//     content: " "
+//     position: absolute
+//     bottom: 0
+//     right: 0
+//     top: 0
+//     left: 0
+//     background-color: black
+//     opacity: .6
+
+
+>>>>>>> 42f79bc641cab1a5ff834862a40038860be2c6f8
   
 
 
