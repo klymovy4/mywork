@@ -559,19 +559,22 @@
   p
     margin: 10px
 
+
+// dws------------------------------------------------------------------------
 .dws-container
-  z-index: 8
-  // outline: 1px solid black
+  // z-index: 8
   position: fixed
   bottom: 0
   right: 0
   width: 350px
   overflow: hidden
-  transform: translateY(465px)
+  transform: translateY(502px)
   transition: .5s
   &:hover
-    transform: translateY(458px)
+    transform: translateY(490px)
   .buttonForm
+    display: absolute
+    right: -63%
 
 
 .toggleForm:checked ~ .dws-container
@@ -581,33 +584,12 @@
   display: none
 
 .formbox
-  position: relative
-  // padding: 30px
-  border: 4px solid white
-  // background-image: url(img/18a.jpg)
-  // background-size: cover
-  // background-position: center
-  // background-color: lightblue
-  &:after
-    content: ''
-    position: absolute
-    bottom: 0
-    right: 0
-    top: 0
-    left: 0
-    background-color: black
-    opacity: .1
-  .buttonForm
-    // float: right
-
-   
-    
-  
-
+  padding: 30px
+  border: 4px solid #8a36a5
+  background-color: lightblue
+ 
 
 .toggleForm
-  // position: absolute
-  // top: 100%
   background: black
   display: block
   color: white
@@ -620,11 +602,7 @@
   cursor: pointer
 
 
-.fa-question-circle
-  padding: 6px  25px 6px 2px
-
 .inputbox
-  z-index: 20
   position: relative
   margin: 0 0 20px
   
@@ -642,7 +620,7 @@
 .focus .labeltext
   transform: translateY(-30px)
   font-size: 16px
-  color: white
+  color: red
   
 .userinput
   position: relative
@@ -655,10 +633,15 @@
   border: none
   border-bottom: 3px solid black
 
-input
-  font-size: 17px
+
+textarea.userinput
+  height: 100px
+  margin-top: 12px
   color: black
-  z-index: 44
+// input
+//   font-size: 17px
+//   color: black
+//   z-index: 1
 
 .personalDoc
   // color: #858585
@@ -667,11 +650,11 @@ input
     // color: #858585
     color: black
     &:hover
-      color: white
+      color: red
 
 .buttonForm
   position: relative
-  float: right
+  // float: right
   text-align: center
   z-index: 5
   cursor: pointer
@@ -709,48 +692,8 @@ input
     content: ''
     display: table
     clear: both
-
-
-.test
-  width: 500px
-  height: 300px
-  position: relative
-  color: white
-  // z-index: 59
-  img
-    width: 500px
-    height: 300px
-    
-  &::before
-    content: ''
-    position: absolute
-    top: 0
-    right: 0
-    left: 0
-    bottom: 0
-    background-color: black
-    opacity: .7
-  &:hover
-    cursor: pointer
-    &::before
-      opacity: 0
-      transition: opacity .5s ease
-
-
   .buttonForm
     float: right
-
-// .flip-box-back
-//   position: relative
-//   &::after
-//     content: " "
-//     position: absolute
-//     bottom: 0
-//     right: 0
-//     top: 0
-//     left: 0
-//     background-color: black
-//     opacity: .6
 
 
 
