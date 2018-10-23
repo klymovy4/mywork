@@ -573,8 +573,9 @@
   &:hover
     transform: translateY(490px)
   .buttonForm
-    display: absolute
-    right: -63%
+    float: right
+  
+
 
 
 .toggleForm:checked ~ .dws-container
@@ -587,6 +588,10 @@
   padding: 30px
   border: 4px solid #8a36a5
   background-color: lightblue
+  &:after
+    content: ''
+    clear: both
+    display: table
  
 
 .toggleForm
@@ -638,10 +643,6 @@ textarea.userinput
   height: 100px
   margin-top: 12px
   color: black
-// input
-//   font-size: 17px
-//   color: black
-//   z-index: 1
 
 .personalDoc
   // color: #858585
