@@ -516,27 +516,29 @@
   <div class="dws-container">
     <label for='dws-form' class='toggleForm'>Отзыв</label>
       <form action='https://docs.google.com/forms/u/1/d/e/1FAIpQLSdCT8mhv3Gy3q8304FeDb7z7bnL89JsmqupLyQZ2hIAy61TIg/formResponse' target="_self" method="POST" id='mG61Hd' class="formbox" style="background-color :  lightblue">
-        <div class="inputbox" >
-          <label class="labeltext"><strong>Name:</strong></label>
-          <input name='entry.2141428091' type="text" class="userinput" required>
-        </div>
-        <div class="inputbox">
-          <label class="labeltext"><strong>E-mail:</strong></label>
-          <input name='entry.543167290' type="text" class="userinput" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
-        </div>
+          <div class="inputbox" >
+            <label class="labeltext"><strong>Name:</strong></label>
+            <input name='entry.2141428091' type="text" class="userinput" required>
+          </div>
+          <div class="inputbox">
+            <label class="labeltext"><strong>E-mail:</strong></label>
+            <input name='entry.543167290' type="text" class="userinput" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+          </div>
         <div class="inputbox">
           <label class="labeltext"><strong>Phone</strong></label>
           <input name='entry.1650154181' type="phone" class="userinput" required pattern="[0-9]{10}">
         </div>
-        <div class="inputbox">
+        <div class="inputbox inputbox-textarea">
           <label class="labeltext"><strong>Напишите ваше мнение</strong></label>
           <textarea name='entry.1041713589' class='userinput' rows="40" cols="33"  required></textarea>
         </div>
-        <div class="inputbox">
-        <label><input type="checkbox" required><strong>Я согласен на все что</strong></label>
-          <label class='personalDoc'><a href='#'><strong>можно и нельзя</strong></a></label>   
-        </div>
-        <input type='submit' value='Confirm' class='buttonForm'>
+          <div class="flex-1030">
+            <div class="inputbox">
+              <label><input type="checkbox" required><strong>Я согласен на все что</strong></label>
+                <label class='personalDoc'><a href='#'><strong>можно и нельзя</strong></a></label>   
+              </div>
+              <input type='submit' value='Confirm' class='buttonForm'>
+          </div>
       </form>
   </div>
 </div>
