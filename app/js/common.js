@@ -153,7 +153,7 @@ $('.logIn').click(function(){
 
 //content card-----------------------------------------------------------------
 $('.blog-item-content').click(function(){
-	$(this).siblings('.content-card').toggle('slow');
+	$(this).siblings('.content-card').slideToggle('slow');
 	// $(this).siblings(span).hide();
 });
 
