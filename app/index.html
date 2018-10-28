@@ -75,21 +75,22 @@
       <div class="blog-home grid">
           <a href="#" class='blog-item grid webdesign'>
             <span class="blog-item-img" style="background-image: url(img/1a.jpg);"></span>
-            <span class="blog-item-content grid">
+            <div class="blog-item-content grid">
               <h4>Roman Klymovych</h4>
                 <p>Front-end 
                     developer of high level. Programming </p>
-            </span>
-            <div class="content-card">
-              <p>1кГц.language javascript. Благодаря более 
-                          мощному, чем в предыдущих
-                            моделях 32-х битному микропроцессору
-                          , обеспечивается высокая скорость работы
-                        дискриминатора и прибора в целом и минимизируется
-                      время отклика аудио сигнала до вывода визуальной
-                    информации на дисплей.
-              </p>                  
-            </div> 
+                   
+            </div>
+              <span class="content-card">
+                <p>1кГц.language javascript. Благодаря более 
+                              мощному, чем в предыдущих
+                                моделях 32-х битному микропроцессору
+                              , обеспечивается высокая скорость работы
+                            дискриминатора и прибора в целом и минимизируется
+                          время отклика аудио сигнала до вывода визуальной
+                        информации на дисплей.
+                </p>                  
+              </span> 
           </a>
 
 
@@ -114,15 +115,15 @@
             <span class="blog-item-content grid">
               <h4>2Климович Роман Игоревич</h4>
                 <p>2Explorer E-Trac MINELAB работает на 28 частотах в </p> </span>
-                  <div class="content-card">
-                    <p>диапазоне  от 1,5 до 100 2кГц. Благодаря более 
+            <div class="content-card">
+              <p>диапазоне  от 1,5 до 100 2кГц. Благодаря более 
                           мощному, чем в предыдущих
                            моделях 32-х битному микропроцессору
                            , обеспечивается высокая скорость работы
                             дискриминатора и прибора в целом и минимизируется
                               время отклика аудио сигнала до вывода визуальной
                                информации на дисплей.</p>                  
-                  </div>
+            </div>
           </a>
           <a href="#" class='blog-item grid graphd'>
             <span class="blog-item-img" style="background-image: url(img/4a.jpg);"></span>
@@ -475,11 +476,13 @@
         </div>
     </div>
   </div>
+ 
   <div class="deep-footer">
-    <h4>Alll rights reserved 2018 © <span style="color:red;">new vertion</span></h4>
+    <h4>All rights reserved 2018 © <span style="color:red;">new vertion</span></h4>
   </div>
 </div>
 
+<!-------------------------------the end -->
 
 <div class="modal-log">
   <span class="close">&times;</span>
@@ -505,47 +508,81 @@
   </div>
 </div>
 
- <!---------------------------------------------------------------------the modal  -->
+ <!---------------------------------------------------------------------the-modal---->
 <div id="myModal" class="modal">
   <span class="close">&times;</span>
   <img class="modal-content" src="">
   <div id="caption"></div>
 </div>
 
-<!----------------------------------------------------------------------dwswrapper------------------------------>
+<!----------------------------------------------------------------------dws-wrapper------------------------------>
 <div class="dws-wrapper">
   <input type='checkbox' name='toggle' id='dws-form' class='toggleForm'>
   <div class="dws-container">
     <label for='dws-form' class='toggleForm'>Отзыв</label>
       <form action='https://docs.google.com/forms/u/1/d/e/1FAIpQLSdCT8mhv3Gy3q8304FeDb7z7bnL89JsmqupLyQZ2hIAy61TIg/formResponse' target="_self" method="POST" id='mG61Hd' class="formbox" style="background-color :  lightblue">
-        <div class="inputbox" >
-          <label class="labeltext"><strong>Name:</strong></label>
-          <input name='entry.2141428091' type="text" class="userinput" required>
-        </div>
-        <div class="inputbox">
-          <label class="labeltext"><strong>E-mail:</strong></label>
-          <input name='entry.543167290' type="text" class="userinput" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
-        </div>
+          <div class="inputbox" >
+            <label class="labeltext"><strong>Name:</strong></label>
+            <input name='entry.2141428091' type="text" class="userinput" required>
+          </div>
+          <div class="inputbox">
+            <label class="labeltext"><strong>E-mail:</strong></label>
+            <input name='entry.543167290' type="text" class="userinput" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+          </div>
         <div class="inputbox">
           <label class="labeltext"><strong>Phone</strong></label>
           <input name='entry.1650154181' type="phone" class="userinput" required pattern="[0-9]{10}">
         </div>
-        <div class="inputbox">
+        <div class="inputbox inputbox-textarea">
           <label class="labeltext"><strong>Напишите ваше мнение</strong></label>
           <textarea name='entry.1041713589' class='userinput' rows="40" cols="33"  required></textarea>
         </div>
-        <div class="inputbox">
-        <label><input type="checkbox" required><strong>Я согласен на все что</strong></label>
-          <label class='personalDoc'><a href='#'><strong>можно и нельзя</strong></a></label>   
-        </div>
-        <input type='submit' value='Confirm' class='buttonForm'>
+          <div class="flex-1030">
+            <div class="inputbox">
+              <label><input type="checkbox" required><strong>Я согласен на все что</strong></label>
+                <label class='personalDoc'><a href='#'><strong>можно и нельзя</strong></a></label>   
+              </div>
+              <input type='submit' value='Confirm' class='buttonForm'>
+          </div>
       </form>
   </div>
 </div>
 
 
 
+<div class="form-1030 ">
+  <form action="" class='grid form2'>
+    <div class="inputbox1" >
+      <label class="labeltext"><strong>Name:</strong></label>
+      <input name='entry.2141428091' type="text" class="userinput" required>
+    </div>
+    <div class="inputbox1">
+      <label class="labeltext"><strong>E-mail:</strong></label>
+      <input name='entry.543167290' type="text" class="userinput" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+    </div>
+  <div class="inputbox1">
+    <label class="labeltext"><strong>Phone</strong></label>
+    <input name='entry.1650154181' type="phone" class="userinput" required pattern="[0-9]{10}">
+  </div>
+  <div class="inputbox1 inputbox-textarea">
+    <label class="labeltext"><strong>Напишите ваше мнение</strong></label>
+    <textarea name='entry.1041713589' class='userinput' rows="40" cols="33"  required></textarea>
+  </div>
+    <div class="flex-1030">
+      <div class="inputbox1">
+        <label><input type="checkbox" required><strong>Я согласен на все что</strong></label>
+          <label class='personalDoc'><a href='#'><strong>можно и нельзя</strong></a></label>   
+        </div>
+        <input type='submit' value='Confirm' class='buttonForm'>
+    </div>
+
+  </form>
+</div>
+
+
+
 <!-- дальше идет скрипт========================================================================================================================================-->
+
 
 
 <script>
@@ -652,12 +689,7 @@ function scrollFunction() {
 
     
 </script>
-
-
-
-
-	<link rel="stylesheet" href="css/main.min.css">
-  <script src="js/scripts.min.js"></script>
-
+<link rel="stylesheet" href="css/main.min.css">
+<script src="js/scripts.min.js"></script>
 </body>
 </html>
