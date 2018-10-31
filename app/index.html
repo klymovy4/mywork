@@ -661,14 +661,17 @@ function scrollFunction() {
     
     // Create a new list item when clicking on the "Add" button
     function newElement() {
-      var li = document.createElement("li");
-      var inputValue = document.getElementById("myInput").value;
-      var t = document.createTextNode(inputValue);
-      li.appendChild(t);
-      if (inputValue === '') {
+      // var li = document.createElement("li");
+      // var inputValue =  document.getElementById("myInput").value;
+      // var t = document.createTextNode(inputValue);
+      // t.innerHTML = '<li><i class="fa fa-twitter"></i> '+inputValue+'</li>';
+      // console.log(t.innerHTML);
+      //li.appendChild(t);
+      if ($('#myInput').val() === '') {
         alert("You must write something!");
       } else {
-        document.getElementById("myUL").appendChild(li);
+        $('#myUL').append('<li><i class="fa fa-twitter"></i>' + $('#myInput').val()+'</li>');
+        // document.getElementById("myUL").appendChild(li);
       }
       document.getElementById("myInput").value = "";
     
